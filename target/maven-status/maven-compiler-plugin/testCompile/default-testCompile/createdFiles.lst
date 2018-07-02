@@ -1,0 +1,10 @@
+Utils\TestData.class
+mani\test\AmazonScript.class
+mani\test\FlipkartScripts.class
+mani\test\AIGOneClaimScripts.class
+stepDefinition\Amazon.class
+Cucumber\CucumberRunner.class
+mani\test\logger.class
+Utils\Screenshot.class
+stepDefinition\Flipkart.class
+stepDefinition\AIGOneClaim.class

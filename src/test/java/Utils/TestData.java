@@ -8,7 +8,7 @@ import mx4j.log.Logger;
 
 public class TestData {
 	static String testData;
-	public static String data(String columnName, String rowName) throws Exception {
+	public static String getData(String columnName, String rowName) throws Exception {
 		Fillo fillo=new Fillo();
 		String dirPath = System.getProperty("user.dir");
 		Connection connection=fillo.getConnection(dirPath+"\\src\\test\\java\\data\\TestData.xlsx");
@@ -24,6 +24,6 @@ public class TestData {
 	}
 	
 public static void main(String[] args) throws Exception {
-	data("UserName", "TC01");
+	getData("UserName", "TC01");
 }
 }
