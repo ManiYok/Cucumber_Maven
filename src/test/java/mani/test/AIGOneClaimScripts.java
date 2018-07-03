@@ -3,9 +3,10 @@ package mani.test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
+import Utils.DriverSelector;
 import Utils.TestData;
 
-public class AIGOneClaimScripts extends logger{
+public class AIGOneClaimScripts extends DriverSelector{
 	
 	public AIGOneClaimScripts(){
 		

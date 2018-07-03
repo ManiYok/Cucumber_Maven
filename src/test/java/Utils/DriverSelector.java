@@ -15,7 +15,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
-public class DriverSelector {
+import mani.test.logger;
+
+public class DriverSelector extends logger {
 	static String strDate;
 	public static WebDriver driver;
 	static String screenShotPath;
@@ -40,15 +42,15 @@ public class DriverSelector {
 		
 		//Browser Selection
 		
-		if(TestData.getData("Environment", "Browser").contains("Firefox")) {
+		if(TestData.getData("Environment", "Browser").equalsIgnoreCase("Firefox")) {
 		System.setProperty("webdriver.gecko.driver", dirPath+"\\src\\test\\java\\Drivers\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		}
-		else if(TestData.getData("Environment", "Browser").contains("IE")) {
+		else if(TestData.getData("Environment", "Browser").equalsIgnoreCase("IE")) {
 		System.setProperty("webdriver.ie.driver", dirPath+"\\src\\test\\java\\Drivers\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();
 		}
-		else if(TestData.getData("Environment", "Browser").contains("Chrome")) {
+		else if(TestData.getData("Environment", "Browser").equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", dirPath+"\\src\\test\\java\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}

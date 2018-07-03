@@ -6,9 +6,10 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import Utils.DriverSelector;
 import Utils.TestData;
 
-public class AmazonScript extends logger{
+public class AmazonScript extends DriverSelector{
 public void navigate_to_Amazon_Website() throws Throwable {
 	 driver.get("https://www.amazon.in");
 	 screenShot("URL_Passed");

@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Cucumber.CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 40.325 sec <<< FAILURE! - in Cucumber.CucumberRunner
-Then validate the Amazon website(Scenario: Amazon Testing)  Time elapsed: 0.017 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at mani.test.AmazonScript.validate_the_Amazon_website(AmazonScript.java:31)
-	at stepDefinition.Amazon.validate_the_Amazon_website(Amazon.java:17)
-	at ?.Then validate the Amazon website(Amazon.feature:7)
-
-Scenario: Amazon Testing  Time elapsed: 0.018 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at mani.test.AmazonScript.validate_the_Amazon_website(AmazonScript.java:31)
-	at stepDefinition.Amazon.validate_the_Amazon_website(Amazon.java:17)
-	at ?.Then validate the Amazon website(Amazon.feature:7)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.954 sec - in Cucumber.CucumberRunner

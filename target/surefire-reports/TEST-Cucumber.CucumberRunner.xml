@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber.CucumberRunner" time="0.042" tests="4" errors="2" skipped="0" failures="0">
+<testsuite name="Cucumber.CucumberRunner" time="0.008" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="H:\git\Cucumber_Maven"/>
+    <property name="maven.multiModuleProjectDirectory" value="H:\git\Cucumber_Maven_Updated"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="test" value="CucumberRunner"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="H:\git\Cucumber_Maven"/>
+    <property name="user.dir" value="H:\git\Cucumber_Maven_Updated"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="C:\Users\kkathamu\Downloads\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Users\kkathamu\Downloads\apache-maven-3.5.4\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Users\kkathamu\Downloads\apache-maven-3.5.4\bin;C:\Users\kkathamu\AppData\Local\GitHubDesktop\bin;."/>
     <property name="maven.conf" value="C:\Users\kkathamu\Downloads\apache-maven-3.5.4\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -65,22 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given Launch the browser" classname="Scenario: Amazon Testing" time="0.006"/>
-  <testcase name="When Navigate to Amazon Website" classname="Scenario: Amazon Testing" time="0.001"/>
-  <testcase name="Then validate the Amazon website" classname="Scenario: Amazon Testing" time="0.017">
-    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at mani.test.AmazonScript.validate_the_Amazon_website(AmazonScript.java:31)
-	at stepDefinition.Amazon.validate_the_Amazon_website(Amazon.java:17)
-	at ✽.Then validate the Amazon website(Amazon.feature:7)
-</error>
-    <system-out><![CDATA[2018-07-02 15:08:41,905  INFO [main] (AmazonScript.java:30)- Value passed
-]]></system-out>
-  </testcase>
-  <testcase name="Scenario: Amazon Testing" classname="Scenario: Amazon Testing" time="0.018">
-    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at mani.test.AmazonScript.validate_the_Amazon_website(AmazonScript.java:31)
-	at stepDefinition.Amazon.validate_the_Amazon_website(Amazon.java:17)
-	at ✽.Then validate the Amazon website(Amazon.feature:7)
-</error>
-  </testcase>
+  <testcase name="Given Launch the browser" classname="Scenario: Amazon Testing" time="0.003"/>
+  <testcase name="When Navigate to Amazon Website" classname="Scenario: Amazon Testing" time="0"/>
+  <testcase name="Then validate the Amazon website" classname="Scenario: Amazon Testing" time="0"/>
+  <testcase name="Scenario: Amazon Testing" classname="Scenario: Amazon Testing" time="0.005"/>
 </testsuite>

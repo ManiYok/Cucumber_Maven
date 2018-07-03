@@ -2,9 +2,10 @@ package mani.test;
 
 import org.openqa.selenium.By;
 
+import Utils.DriverSelector;
 import Utils.TestData;
 
-public class FlipkartScripts extends logger{
+public class FlipkartScripts extends DriverSelector{
 	
 	public void launch_the_browser() throws Throwable {
 		launchBrowser();
