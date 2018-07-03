@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = {"H:\\git\\Cucumber_Maven\\src\\test\\java\\Features"},
+		features = {"src\\test\\java\\Features"},
 		tags= {"@Amazon"},
 				glue={"stepDefinition"},
 				//plugin = {"html:src\\cucumber-html-report"}

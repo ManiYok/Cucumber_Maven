@@ -3,5 +3,24 @@ Feature: Amazon Validation Execution Started
   @Amazon
   Scenario: Amazon Testing           [90m# Amazon.feature:4[0m
     [32mGiven [0m[32mLaunch the browser[0m         [90m# Flipkart.launch_the_browser()[0m
-    [32mWhen [0m[32mNavigate to Amazon Website[0m  [90m# Amazon.navigate_to_Amazon_Website()[0m
-    [32mThen [0m[32mvalidate the Amazon website[0m [90m# Amazon.validate_the_Amazon_website()[0m
+    [31mWhen [0m[31mNavigate to Amazon Website[0m  [90m# Amazon.navigate_to_Amazon_Website()[0m
+      [31morg.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 65 milliseconds
+      Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+      System info: host: 'PW7AM1XDH006024', ip: '10.189.120.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'
+      Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+      Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:31933/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+      Session ID: 9ac1aabc-4ba0-4669-8d29-890d17b797c6
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+      	at mani.test.AmazonScript.navigate_to_Amazon_Website(AmazonScript.java:13)
+      	at stepDefinition.Amazon.navigate_to_Amazon_Website(Amazon.java:11)
+      	at ✽.When Navigate to Amazon Website(Amazon.feature:6)
+      [0m
+    [36mThen [0m[36mvalidate the Amazon website[0m [90m# Amazon.validate_the_Amazon_website()[0m

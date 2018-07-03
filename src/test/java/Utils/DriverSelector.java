@@ -15,7 +15,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
-public class Screenshot {
+public class DriverSelector {
 	static String strDate;
 	public static WebDriver driver;
 	static String screenShotPath;
