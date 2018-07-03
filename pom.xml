@@ -209,9 +209,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18</version>
 				<configuration>
-					<include>**/*CucumberRunner.java</include>
-						<!-- <exclude>**/*CucumberRunner.java</exclude> -->
-					
+					<include>
+						<exclude>**/*CucumberRunner.java</exclude>
+					</include>
 				</configuration>
 			</plugin>
 		</plugins>
